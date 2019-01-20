@@ -11,10 +11,10 @@ public class CheckingValuesOfArray {
 		for (int i:massiveArray){
 			sumOfValuesInArray +=i;
 		}
-		System.out.println("Cуммa всех элементов массива: " + sumOfValuesInArray);
+		System.out.println("Sum of all array elements is: " + sumOfValuesInArray);
 		for (int i =0; i < massiveArray.length; i++){
 			if (massiveArray[i] > 1000){
-				System.out.println( "Массив - массивный!");
+				System.out.println( "Array is massive!");
 				break;
 			}
 			

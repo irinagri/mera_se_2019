@@ -13,7 +13,7 @@ public class MaxValueInArray {
 				maxValue = i;
 			}
 		}
-		System.out.println("Mаксимальное значение в массиве: " + maxValue);
+		System.out.println("Max value in array is: " + maxValue);
 	}
 
 }

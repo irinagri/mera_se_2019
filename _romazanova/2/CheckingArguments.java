@@ -7,13 +7,13 @@ public class CheckingArguments {
 		int firstValue = 131;
 		int secondValue = 2;
 		if ( firstValue > 100 | secondValue > 100){
-			System.out.println("Есть большое число");
+			System.out.println("There is a big number");
 		}
 		if (secondValue != 0){
-			System.out.println("Результат деления:" + (double)firstValue/secondValue);
+			System.out.println("Result of devision:" + (double)firstValue/secondValue);
 		}
 		if (firstValue > secondValue){
-			System.out.printf("%d больше %d\n", firstValue, secondValue);
+			System.out.printf("%d more than %d\n", firstValue, secondValue);
 		}
 		
 		if (secondValue%2 == 0 ){
