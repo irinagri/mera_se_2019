@@ -1,8 +1,10 @@
+package _romazanova.1;
+
 public class ReverseListofArgs {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.print("ÐÑ€Ð³ÑƒÐ¼ÐµÐ½Ñ‚Ñ‹ Ð¼ÐµÑ‚Ð¾Ð´Ð° main Ð² Ð¾Ð±Ñ€Ð°Ñ‚Ð½Ð¾Ð¼ Ð¿Ð¾Ñ€ÑÐ´ÐºÐµ: ");
+		System.out.print("Àðãóìåíòû êîìàíäíîé ñòðîêè ");
 		for (int i = args.length-1; i >=0; i--) {
 			System.out.print( args [i] + " ");
 		}
