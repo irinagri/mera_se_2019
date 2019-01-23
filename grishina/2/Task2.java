@@ -12,12 +12,12 @@ public class Task2 {
             System.out.println("Результат деления: " + div);
         }
         if (num1 > num2) {
-            System.out.println(num1 + " больше" + num2);
+            System.out.println(num1 + " больше " + num2);
         }
         if ((num2 % 2) == 0) {
             System.out.println("Число " + num2 + " - четное.");
         }
-   
+
         // Задание 2
         int[] mass = {10,20,30,40,100500,60,70,80,90,1099};
         int sum = 0;
@@ -25,7 +25,7 @@ public class Task2 {
             sum += i;
         }
         System.out.println("Сумма всех элементов массива: " + sum);
-        for (i = 0; i < mass.length; i++) {
+        for (int i = 0; i < mass.length; i++) {
             if (mass[i] > 1000) {
                 System.out.println("Массив - массивный!");
                 break;
@@ -34,13 +34,11 @@ public class Task2 {
 
         // Задание 3
         int max = mass[0];
-        for (int i = 0; i < mass.length; i++) {
-            max = max > mass[i] ? max : mass[i]; 
-            return max;
+        for (int i:mass){
+            if (i !=100500 & i > max) {
+                max = i;
+            }
         }
-        // Я ещё не придумала, как игнорировать число 100500 :-\
-        //if (max = 100500) {
-            System.out.println("Максимальный элемент массива: " + max); 
-        //}
+        System.out.println("Максимальный элемент массива: " + max);
     }
 }
