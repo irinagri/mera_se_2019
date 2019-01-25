@@ -1,25 +1,25 @@
 package ru.mera.atuzhil.task3;
 
 public class Message {
-    protected String from;
-    protected String to;
-    protected String message;
+    private Person from;
+    private Person to;
+    private String message;
 
-    public Message(String from, String to, String message) {
+    public Message(Person from, Person to, String message) {
         this.from = from;
         this.to = to;
         this.message = message;
     }
 
-    public void setFrom(String from) {
-        this.from = from;
+    public Person getFrom() {
+        return this.from;
     }
 
-    public void setTo(String to) {
-        this.to = to;
+    public Person getTo() {
+        return this.to;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
+    public String getMessage() {
+        return this.message;
     }
 }
