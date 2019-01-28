@@ -4,7 +4,7 @@ import java.lang.*;
 import java.time.LocalDateTime;
 
 public class MailBox {
-    static private final int index = 10;
+    static private final int index = 3;
     private EmailMessage [] emailMessageBox = new EmailMessage [index] ;
     private PaperMessage [] paperMessageBox = new PaperMessage [index];
     private int nextEmailPosition = 0;
